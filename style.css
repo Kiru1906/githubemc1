@@ -1,0 +1,129 @@
+:root{
+    --red:rgb(205, 18, 24);
+    --blue:rgb(102, 49, 175);
+    --green:rgb(14, 221, 107);
+    --yellow: rgb(164, 16, 227);
+
+
+}
+body,h2,h2{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Landing{
+    background-image:url('../pexels-rombo-1510555-14745095.jpg');
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+    color:rgb(192, 24, 41);
+    
+}
+header a{
+    text-decoration: none;
+    color:rgb(8, 244, 126);
+}
+header{
+    display:flex;
+    padding=1.5em;
+}
+#logo{
+    flex:3;
+    font-size:0.5em;
+}
+
+    nav{
+        flex:2;
+        display:flex;
+    }
+    nav a{
+        flex:1;
+    }
+    nav a:hover{
+        color:green;
+    }
+    .maintext{
+        display:flex;
+        flex-direction:column;
+        height:50vh;
+        justify-content: center;
+        padding=0.5em;
+    }
+    .tagline1{
+        color:var(--yellow);
+        font-size:2.5em;
+        font weight: bolder;
+    }
+    .tagline2{
+        color:rgb(226, 143, 19);
+        font-size:2.5em;
+    }
+    .maintext div{
+        margin-top:1em;
+    
+
+    }
+    .maintext button{
+        width:20vw;
+        margin-top:2em;
+        border-radius:10px;
+        padding:0.7em;
+        background-color:green;
+        color:white;
+        border:1px salmon;
+    }
+
+    .Items{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+        background:linear-gradient(to right,rgb(164, 8, 8),rgb(80, 80, 189));
+        color:whitesmoke;
+        
+    }
+
+    #ListOfItemsheading,#locheading{
+        background: linear-gradient(to right,rgb(11, 11, 121),rgb(120, 120, 166));
+        font-size:2.5em;
+        color:rgb(179, 255, 230);
+        display: flex;
+        justify-content: center;
+    }
+    .Items th{
+        color:rgb(23, 218, 23);
+        font-size: 1.8em;
+    }
+    table{
+        width:100%;
+        padding:1em;
+
+    }
+    .Items tr{
+        display:flex;
+        justify-content: center;
+        margin-top:.8em;
+    }
+    .Items td:nth-child(1){
+        flex:1;
+        justify-self: left;
+    }
+    .Items td:nth-child(2){
+        justify-self: right;
+    }
+    .Items{
+        grid-row:span 2;
+    }
+    .Locations{
+        background: linear-gradient(to right,rgb(11, 11, 121),rgb(120, 120, 166));
+        color:whitesmoke;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .Locations h2{
+        color:aqua;
+        margin-bottom: .8em;
+    }
+    .Location div{
+        flex:1;
+        padding:1em;
+        min-width:220px;
+
+    }
